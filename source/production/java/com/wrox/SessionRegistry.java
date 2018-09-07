@@ -14,7 +14,7 @@ public final class SessionRegistry
     {
         SESSIONS.put(session.getId(), session);
     }
-
+	//This is  rohit modification..please find this helpful
     public static void updateSessionId(HttpSession session, String oldSessionId)
     {
         synchronized(SESSIONS)
