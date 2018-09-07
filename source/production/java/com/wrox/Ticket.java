@@ -16,6 +16,7 @@ public class Ticket
     private Instant dateCreated;
 
     private Map<String, Attachment> attachments = new LinkedHashMap<>();
+	//Added Comment - Getter Methods
 
     public String getCustomerName()
     {
