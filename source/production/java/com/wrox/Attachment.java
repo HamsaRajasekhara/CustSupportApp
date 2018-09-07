@@ -2,7 +2,8 @@ package com.wrox;
 
 public class Attachment
 {
-    private String name;
+	
+    private String name;   //private variable
 
     private byte[] contents;
 
