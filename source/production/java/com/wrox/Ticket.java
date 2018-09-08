@@ -22,7 +22,7 @@ public class Ticket
     {
         return customerName;
     }
-
+	//Added Comment - Setter Methods - Renju Robin
     public void setCustomerName(String customerName)
     {
         this.customerName = customerName;
